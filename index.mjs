@@ -93,7 +93,7 @@ function prepareCSV() {
       columns: columns,
     },
     function (err, data) {
-      fs.writeFile(__dirname + "/kagoperations.csv", data, (err) => {
+      fs.writeFile(__dirname + "/operations.csv", data, (err) => {
         if (err) {
           console.error(err);
         }
