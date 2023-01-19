@@ -1,5 +1,9 @@
 # kinesisoperations
-Node script to pull all transactions from Kinesis Stellar Blockchain
+Node script to pull all operations and accounts from Kinesis Stellar Blockchain
+
+Can specify which Kinesis chain to grab info via commandline. 
+
+usage example "node index.mjs KAU"
 
 Requires node and npm. 
 
